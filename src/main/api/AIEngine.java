@@ -1,10 +1,10 @@
-package api;
+package main.api;
 
-import boards.TicTacToeBoard;
-import game.Board;
-import game.Cell;
-import game.Move;
-import game.Player;
+import main.boards.TicTacToeBoard;
+import main.game.Board;
+import main.game.Cell;
+import main.game.Move;
+import main.game.Player;
 
 public class AIEngine {
     public Move suggestMove(Player computer, Board board) {

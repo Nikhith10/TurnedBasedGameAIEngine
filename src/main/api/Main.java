@@ -1,10 +1,9 @@
-import api.AIEngine;
-import api.GameEngine;
-import api.RuleEngine;
-import game.Board;
-import game.Cell;
-import game.Move;
-import game.Player;
+package main.api;
+
+import main.game.Board;
+import main.game.Cell;
+import main.game.Move;
+import main.game.Player;
 
 import java.util.Scanner;
 

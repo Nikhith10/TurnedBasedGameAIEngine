@@ -1,4 +1,4 @@
-package game;
+package main.game;
 
 public class Cell {
     int row, col;

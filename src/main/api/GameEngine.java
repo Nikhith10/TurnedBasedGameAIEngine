@@ -1,7 +1,10 @@
-package api;
+package main.api;
 
-import boards.TicTacToeBoard;
-import game.*;
+import main.boards.TicTacToeBoard;
+import main.game.*;
+import main.game.Board;
+import main.game.Move;
+import main.game.Player;
 
 public class GameEngine {
 
