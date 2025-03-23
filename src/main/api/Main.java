@@ -25,12 +25,12 @@ public class Main {
             row = scanner.nextInt();
             col = scanner.nextInt();
             Move oppMove = new Move( new Cell(row,col),human);
-            gameEngine.move(board,human,oppMove);
+            gameEngine.move(board,oppMove);
             System.out.println(board);
             if(!ruleEngine.getState(board).isOver())
             {
                 Move computerMove = aiEngine.suggestMove(computer,board);
-                gameEngine.move(board,computer,computerMove);
+                gameEngine.move(board,computerMove);
             }
 
 

@@ -20,7 +20,7 @@ public class GameEngine {
             throw new IllegalArgumentException();
         }
     }
-    public void move(Board board, Player player, Move move)
+    public void move(Board board, Move move)
     {
         if(board instanceof TicTacToeBoard)
         {
